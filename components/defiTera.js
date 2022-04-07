@@ -4,8 +4,8 @@ import Image from "next/image";
 import security from "../assets/images/security.svg";
 import yieldIcon from "../assets/images/yield.svg";
 import MonitorIcon from "../assets/images/monitor.svg";
-import InfoIcon from "../assets/images/info.svg";
 import stability from "../assets/images/stability.svg";
+import InfoIcon from "../assets/images/infoIcon.svg";
 import flexibility from "../assets/images/flexibility.svg";
 
 export default function DefiTerra() {

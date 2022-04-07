@@ -4,7 +4,7 @@ import Image from "next/image";
 import cryptomiracles from "../assets/images/cryptomiracles.png";
 import cryptoofficials from "../assets/images/cryptoofficials.png";
 import cryptoreflect from "../assets/images/cryptoreflect.png";
-import InfoIcon from "../assets/images/info.svg";
+import InfoIcon from "../assets/images/infoIcon.svg";
 import MonitorIcon from "../assets/images/monitor.svg";
 
 export default function TheMedia() {

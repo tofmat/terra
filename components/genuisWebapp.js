@@ -3,7 +3,7 @@ import { Grid, GridItem, Container, Button } from "@chakra-ui/react";
 import Image from "next/image";
 import bigMonitor from "../assets/images/bigMonitor.png";
 import oak from "../assets/images/oak.png";
-import InfoIcon from "../assets/images/info.svg";
+import InfoIcon from "../assets/images/infoIcon.svg";
 import MonitorIcon from "../assets/images/monitor.svg";
 
 export default function GenuisWebapp() {

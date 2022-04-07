@@ -2,9 +2,8 @@ import React from "react";
 import { Grid, GridItem, Container, Button } from "@chakra-ui/react";
 import Image from "next/image";
 import LineChart from "../assets/images/lineChart.png";
-import InfoIcon from "../assets/images/info.svg";
 import MonitorIcon from "../assets/images/monitor.svg";
-
+import InfoIcon from "../assets/images/infoIcon.svg";
 export default function FrictionlessAccess() {
   return (
     <div>
