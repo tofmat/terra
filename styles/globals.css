@@ -1,11 +1,21 @@
 html,
 body {
+  background: black !important;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "SF-Pro-Heavy";
 }
 
+p {
+  font-family: "SF-Pro-Regular";
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +23,244 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.header {
+  padding: 40px 0;
+}
+.logoText {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(206, 191, 191, 0.5);
+}
+.navLinks p {
+  font-weight: 510;
+  font-size: 16px;
+  color: rgba(206, 191, 191, 0.5);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+.navLink {
+  margin-right: 40px;
+  cursor: pointer;
+}
+.headerText {
+  font-style: normal;
+  font-weight: 860;
+  font-size: 68px;
+  color: rgba(206, 191, 191, 1);
+  line-height: 68px;
+}
+
+.subHeader {
+  font-size: 20px;
+  color: #cebfbf;
+  font-weight: 400;
+}
+.textGradient {
+  background: linear-gradient(104.49deg, #e662f1 -3.83%, #f39d6c 64.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+.mt-5 {
+  margin-top: 50px;
+}
+.flex {
+  display: flex;
+}
+.oakWidth {
+  width: 69px !important;
+}
+
+.alignBase {
+  align-items: baseline;
+}
+.section {
+  padding-top: 6rem !important;
+  padding-bottom: 5rem;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.genuisWebApp {
+  padding-right: 10%;
+}
+
+.earnBtn {
+  background-color: rgba(206, 191, 191, 1) !important;
+  color: #676060 !important;
+  border-radius: 25px !important;
+  padding: 15px 25px !important;
+  font-size: 18px !important;
+}
+.defaultBtn {
+  background-color: #676060 !important;
+  color: #cebfbf !important;
+  border-radius: 25px !important;
+  padding: 15px 25px !important;
+  font-size: 18px !important;
+}
+.learnBtn {
+  background-color: transparent !important;
+  color: #f9d85e !important;
+  border-radius: 25px !important;
+  padding: 15px 15px 15px 0 !important;
+  font-size: 18px !important;
+}
+.defiExplained {
+  background: linear-gradient(90deg, #0b0b0b -44.86%, #181a1e 78.85%);
+  border-radius: 25px;
+  padding: 40px;
+  color: #cebfbf !important;
+  font-size: 20px;
+  line-height: 20px;
+  min-height: 150px;
+}
+
+.defiExplained span {
+  font-weight: bold;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.footerLinks p {
+  color: #cebfbf;
+  font-size: 14px;
+  font-weight: 860;
+}
+.flexWrap {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.socialsLink {
+  justify-content: end;
+}
+.socialLink {
+  margin: 0 30px !important;
+}
+.socialsLink p {
+  color: #cebfbf;
+}
+.footer {
+  padding-top: 100px;
+}
+.copyright {
+  margin: 40px 0;
+  color: #cebfbf;
+  font-size: 14px;
+  font-weight: 860;
+}
+
+.hamburger {
+  display: none;
+}
+.css-6e3h0h {
+  margin-top: 90px;
+  background-color: black;
+}
+.css-79z5gx {
+  background-color: black !important;
+}
+.mobileNav {
+  padding: 20px 0;
+}
+@font-face {
+  font-family: "SF-Pro-Heavy";
+  src: local("SF-Pro-Heavy"),
+    url(../assets/fonts/SFProDisplay-Heavy.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SF-Pro-Regular";
+  src: local("SF-Pro-Regular"),
+    url(../assets/fonts/SFProDisplay-Regular.ttf) format("truetype");
+}
+
+@media (max-width: 990px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .navLink {
+    margin-right: 20px;
+  }
+  .noMobile {
+    display: none;
+  }
+  .heroSec {
+    text-align: center;
+  }
+  .centerMobile {
+    display: flex;
+    justify-content: center;
+  }
+  .optimizedInterest > .secondGrid {
+    grid-row-start: 1;
+  }
+  .optimizedInterest {
+    text-align: center;
+  }
+  /* .centerMobile img {
+    width: 70% !important;
+    margin: auto !important;
+  } */
+  .genuisWebApp {
+    padding: 0 5%;
+  }
+  .textCenterMobile {
+    text-align: center;
+  }
+  .headerText {
+    font-size: 45px;
+    line-height: auto;
+  }
+  .partnerLogos img {
+    width: 60% !important;
+    margin: auto;
+  }
+  .flexGapMobile {
+    gap: 30px;
+  }
+  .socialsLink {
+    justify-content: center;
+  }
+  .socialLink {
+    margin: 0 10px !important;
+  }
+  .rolingSvg svg {
+    width: 350px;
+    height: 350px;
+  }
+  .laptopMpckup img {
+    width: 100% !important;
+  }
 }
