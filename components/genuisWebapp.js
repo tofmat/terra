@@ -28,9 +28,10 @@ export default function GenuisWebapp() {
             <div>
               <h2 className="headerText">
                 Terra Treasury offers a{" "}
-                <span className="textGradient">genius WebApp</span>
+                <span className="textGradient">genius</span>
+                <span className="textGradient2"> WebApp</span>
               </h2>
-              <p className="subHeader mt-2">
+              <p className="subHeader mt-5">
                 Built simple and secure - Enjoy the most valuable ecosystem in
                 the world.
               </p>

@@ -23,8 +23,8 @@ export default function TheMedia() {
           <GridItem colSpan={[1, 1, 6]}>
             <div className="textCenterMobile">
               <h2 className="headerText">
-                Terra Treasury featured in{" "}
-                <span className="textGradient">the Media</span>
+                Terra Treasury featured in <br />
+                <span className="textGradient2">the Media</span>
               </h2>
               <p className="subHeader mt-1">
                 Terra Treasury has been featured in well-known online

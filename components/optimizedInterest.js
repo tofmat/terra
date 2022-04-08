@@ -43,7 +43,8 @@ export default function OptimizedInterest() {
             <div>
               <h2 className="headerText">
                 Terra Treasury offers{" "}
-                <span className="textGradient">optimized interest</span>
+                <span className="textGradient">optimized </span>{" "}
+                <span className="textGradient"> interest</span>
               </h2>
               <p className="subHeader mt-2">
                 Terra Treasury’s yield is stable, secure and attractive.It is

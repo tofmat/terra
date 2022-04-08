@@ -31,7 +31,8 @@ export default function HeroSection() {
             >
               <h2 className="headerText">
                 Terra Treasury <br /> First Decentralized {""}
-                <span className="textGradient">3rd Gen. Savings Protocol</span>
+                <span className="textGradient">3rd Gen. Savings</span>{" "}
+                <span className="textGradient">Protocol</span>
               </h2>
               <div className="flex mt-3 centerMobile">
                 <div className="mr-1">
