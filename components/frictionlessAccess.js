@@ -7,7 +7,7 @@ import InfoIcon from "../assets/images/infoIcon.svg";
 export default function FrictionlessAccess() {
   return (
     <div>
-      <div className="section">
+      <div className="section animatorContent">
         <Container maxW="container.xl">
           <Grid
             templateColumns={[

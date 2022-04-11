@@ -10,7 +10,7 @@ import flexibility from "../assets/images/flexibility.svg";
 
 export default function DefiTerra() {
   return (
-    <div>
+    <div className="animatorContent">
       <Container maxW="container.xl">
         <h2 className="headerText textCenterMobile">
           Take your first step <br /> into{" "}

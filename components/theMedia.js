@@ -9,7 +9,7 @@ import MonitorIcon from "../assets/images/monitor.svg";
 
 export default function TheMedia() {
   return (
-    <div className="section">
+    <div className="section animatorContent">
       <Container maxW="container.xl">
         <Grid
           templateColumns={[
