@@ -200,9 +200,7 @@ a {
 .mobileNav {
   padding: 20px 0;
 }
-.animatorContent {
-  width: max-content !important;
-}
+
 @font-face {
   font-family: "SF-Pro-Heavy";
   src: local("SF-Pro-Heavy"),

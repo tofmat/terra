@@ -28,7 +28,7 @@ export default function OptimizedInterest() {
     },
   };
   return (
-    <div className="section animatorContent">
+    <div className="section">
       <Container maxW="container.xl">
         <Grid
           templateColumns={[
