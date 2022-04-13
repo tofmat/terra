@@ -11,14 +11,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <Container maxW="container.xl">
-        <Grid
-          templateColumns={[
-            "repeat(1, 1fr)",
-            "repeat(1, 1fr)",
-            "repeat(12, 1fr)",
-          ]}
-          gap={20}
-        >
+        <Grid templateColumns="repeat(12, 1fr)">
           <GridItem colSpan={6}>
             <div className="flex footerLinks flexWrap">
               <p>CONTACT</p>
