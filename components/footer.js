@@ -11,42 +11,44 @@ export default function Footer() {
   return (
     <div className="footer">
       <Container maxW="container.xl">
-        <Grid templateColumns="repeat(12, 1fr)">
-          <GridItem colSpan={6}>
-            <div className="flex footerLinks flexWrap">
-              <p>CONTACT</p>
-              <p>WHITEPAPER</p>
-              <p>OFFICIAL TERRASWAP</p>
-              <p>WE’RE HIRING</p>
-              <p>AUDIT</p>
-            </div>
-          </GridItem>
-          <GridItem colSpan={6}>
-            <div className="flex socialsLink">
-              <div className="socialLink">
-                <Image src={twitterIcon} alt="" />
+        <div className="noMobile">
+          <Grid templateColumns="repeat(12, 1fr)">
+            <GridItem colSpan={6}>
+              <div className="flex footerLinks flexWrap">
+                <p>CONTACT</p>
+                <p>WHITEPAPER</p>
+                <p>OFFICIAL TERRASWAP</p>
+                <p>WE’RE HIRING</p>
+                <p>AUDIT</p>
               </div>
-              <div className="socialLink">
-                <Image src={SubtractIcon} alt="" />
-              </div>
-              <div className="socialLink">
-                <Image src={MediumIcon} alt="" />
-              </div>
-              <div className="flex alignCenter socialLink">
-                <div className="mr-1">
-                  <Image src={bookIcon} alt="" />
+            </GridItem>
+            <GridItem colSpan={6}>
+              <div className="flex socialsLink">
+                <div className="socialLink">
+                  <Image src={twitterIcon} alt="" />
                 </div>
-                <p>DOCS</p>
-              </div>
-              <div className="flex alignCenter socialLink">
-                <div className="mr-1">
-                  <Image src={monitorIcon} alt="" />
+                <div className="socialLink">
+                  <Image src={SubtractIcon} alt="" />
                 </div>
-                <p>WEBAPP</p>
+                <div className="socialLink">
+                  <Image src={MediumIcon} alt="" />
+                </div>
+                <div className="flex alignCenter socialLink">
+                  <div className="mr-1">
+                    <Image src={bookIcon} alt="" />
+                  </div>
+                  <p>DOCS</p>
+                </div>
+                <div className="flex alignCenter socialLink">
+                  <div className="mr-1">
+                    <Image src={monitorIcon} alt="" />
+                  </div>
+                  <p>WEBAPP</p>
+                </div>
               </div>
-            </div>
-          </GridItem>
-        </Grid>
+            </GridItem>
+          </Grid>
+        </div>
         <p className="copyright textCenterMobile">© Copyright 2022 - Legal</p>
       </Container>
     </div>

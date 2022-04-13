@@ -15,7 +15,7 @@ export default function HeroSection() {
             "repeat(1, 1fr)",
             "repeat(12, 1fr)",
           ]}
-          gap={10}
+          gap={5}
           className="alignCenter heroSec"
         >
           <GridItem colSpan={[1, 1, 5]} className="centerMobile">

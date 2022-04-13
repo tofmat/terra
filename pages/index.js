@@ -17,7 +17,6 @@ const Home = () => {
   const heroRef = useRef(null);
   useEffect(() => {
     const el = heroRef.current;
-    const settingUp = false;
     const instances = [];
     const goToSection = (i) => {
       gsap.to(window, {
@@ -27,23 +26,28 @@ const Home = () => {
     };
 
     gsap.utils.toArray(".panel").forEach((panel, i) => {
-      instances.push(
-        ScrollTrigger.create({
-          trigger: panel,
-          onEnter: () => {
-            goToSection(i);
-          },
-        })
-      );
-      instances.push(
-        ScrollTrigger.create({
-          trigger: panel,
-          start: "bottom bottom",
-          onEnterBack: () => {
-            goToSection(i);
-          },
-        })
-      );
+      if (window.innerWidth > 900) {
+        instances.push(
+          ScrollTrigger.create({
+            trigger: panel,
+            onEnter: () => {
+              goToSection(i);
+            },
+          })
+        );
+        instances.push(
+          ScrollTrigger.create({
+            trigger: panel,
+            start: "bottom bottom",
+            onEnterBack: () => {
+              goToSection(i);
+            },
+          })
+        );
+      } else {
+        console.log("no anumation ooo");
+        //mobile view no animation
+      }
     });
   }, []);
 
@@ -59,7 +63,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <Header /> */}
+        <Header />
         <div className="panel one" ref={heroRef}>
           <HeroSection />
         </div>

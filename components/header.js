@@ -42,7 +42,7 @@ export default function Header() {
             <DrawerOverlay />
             <DrawerContent>
               <DrawerBody>
-                <div className="navLinks alignCenter justifyCenter mobileNav">
+                <div className="navLinks mobileNav">
                   <p className="navLink">DASHBOARD</p>
                   <p className="navLink">DEVELOPERS</p>
                   <div>

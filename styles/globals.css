@@ -62,6 +62,9 @@ a {
 .firstPanel {
   height: calc(100vh) !important;
 }
+.one {
+  height: calc(100vh - 120px) !important;
+}
 .panel {
   height: 100vh;
   top: 0;
@@ -207,9 +210,12 @@ a {
   background-color: black !important;
 }
 .mobileNav {
-  padding: 20px 0;
+  padding: 10px 0 20px;
+  display: block !important;
 }
-
+.mobileNav .navLink {
+  margin: 10px 0 !important;
+}
 @font-face {
   font-family: "SF-Pro-Heavy";
   src: local("SF-Pro-Heavy"),
@@ -223,6 +229,14 @@ a {
 }
 
 @media (max-width: 990px) {
+  .panel {
+    height: auto;
+    display: block;
+    top: auto;
+  }
+  .one {
+    height: auto !important;
+  }
   .hamburger {
     display: block;
     cursor: pointer;
@@ -257,8 +271,8 @@ a {
     text-align: center;
   }
   .headerText {
-    font-size: 45px;
-    line-height: auto;
+    font-size: 35px;
+    line-height: 50px;
   }
   .partnerLogos img {
     width: 60% !important;
@@ -273,11 +287,19 @@ a {
   .socialLink {
     margin: 0 10px !important;
   }
+  .section {
+    padding-top: 4rem !important;
+    padding-bottom: 3rem;
+  }
+
   .rolingSvg svg {
     width: 350px;
     height: 350px;
   }
   .laptopMpckup img {
     width: 100% !important;
+  }
+  .footer {
+    padding-top: 10px;
   }
 }
